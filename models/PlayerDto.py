@@ -10,7 +10,7 @@ class PlayerDto:
     season: List[str]
     points: int
     games: int
-    twoPercent: float
-    threePercent: float
+    two_percent: float
+    three_percent: float
     atr: float
     ppg_ratio:float
