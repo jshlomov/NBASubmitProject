@@ -2,6 +2,6 @@ from dataclasses import dataclass
 
 @dataclass
 class Player:
-    id: int
-    playerName: str
-    playerId: str
+    player_name: str
+    player_id: str
+    id: int = None
